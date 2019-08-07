@@ -24,11 +24,15 @@
   template:
     src: dnsdist.conf.j2
 <<<<<<< HEAD
+<<<<<<< HEAD
     dest: /etc/dnsdist/dnsdist.conf
     owner: '{{ dnsdist_config_owner }}'
     group: '{{ dnsdist_config_group }}'
 =======
     dest: "{{ default_dnsdist_config_location }}" 
+=======
+    dest: "{{ default_dnsdist_config_location }}"
+>>>>>>> Remove extra whitespace
     owner: "{{ default_dnsdist_owner }}"
     group: "{{ default_dnsdist_group }}"
 >>>>>>> Add support for FreeBSD
